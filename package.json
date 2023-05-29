@@ -1,0 +1,45 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@inertiajs/inertia": "0.10.1",
+        "@inertiajs/inertia-vue3": "0.5.2",
+        "@inertiajs/progress": "0.2.7",
+        "@tailwindcss/forms": "0.4.0",
+        "@vue/compiler-sfc": "3.2.31",
+        "autoprefixer": "10.4.2",
+        "axios": "0.21.4",
+        "laravel-mix": "6.0.43",
+        "lodash": "4.17.21",
+        "postcss": "8.4.7",
+        "postcss-import": "14.0.2",
+        "resolve-url-loader": "5.0.0",
+        "sass": "1.49.8",
+        "sass-loader": "12.6.0",
+        "tailwindcss": "3.0.23",
+        "vue": "3.2.31",
+        "vue-loader": "16.8.3"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "6.0.0",
+        "@popperjs/core": "2.11.2",
+        "@vueform/slider": "2.0.8",
+        "air-datepicker": "3.1.1",
+        "chart.js": "3.7.1",
+        "laravel-echo": "1.11.3",
+        "moment": "2.29.1",
+        "socket.io-client": "^2.4.0",
+        "sweetalert2": "11.4.4",
+        "swiper": "8.0.6",
+        "vue-avatar-editor-improved": "1.0.0",
+        "vue-uuid": "2.1.0"
+    }
+}
